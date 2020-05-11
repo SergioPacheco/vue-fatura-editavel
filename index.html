@@ -4,7 +4,7 @@
 <head>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-    <link rel="icon" sizes="192x192" href="icon.png">
+    <link rel="icon" sizes="192x192" href="images/icon.png">
 
 </head>
 
@@ -23,7 +23,7 @@
             </div>
 
             <div id="logohelp">
-                <input v-model="logo" id="imageloc" type="text" size="50" value="logo.png" /><br />
+                <input v-model="logo" id="imageloc" type="text" size="50" value="images/logo.png" /><br />
                 (tamanho máximo 540 x 100 px)
             </div>
             <img id="image" :src="logo" alt="logo" />
@@ -131,29 +131,27 @@
             data: {
                 removeLogo: true,
                 edit: '',
-                logo: 'logo.png',
+                logo: 'images/logo.png',
                 fatura: {
                     tipo: 'FATURA',
                     numero: '1234',
                     data: new Date(Date.now()).toLocaleString(),
-                    meu_endereco: 'Sergio Pacheco \nAv Brasil, nº 345 \nSão Paulo - Brasil \n\nTel: +55 011 555-5555',
+                    meu_endereco: 'Sergio Pacheco \n404, Harrow Road \nLondon - UK \n\nTel: +55 020 555-5555',
                     cliente_endereco: 'Delta Imóveis \nAv. Brasil, 1234',
                     cliente_deposito: 50,
                     total: ''
                 },
                 items: [{
                     titulo: '1',
-                    descricao: 'Web Aplicação',
-                    quantidade: '2',
-                    preco_unitario: '1500',
-                    total: '3000'
+                    descricao: 'Aplicação Web - Criação e Design de Site ',
+                    quantidade: '1',
+                    preco_unitario: '1520'
                 },
                 {
                     titulo: '2',
-                    descricao: 'Web Aplicação',
+                    descricao: 'Manutenção ',
                     quantidade: '2',
-                    preco_unitario: '1500',
-                    total: '3000'
+                    preco_unitario: '1480'
                 }]
             },
             methods: {
