@@ -1,10 +1,10 @@
 # Fatura Editável
 
-Fatura editável permite que a edição dos principais dados de uma fatura inclusive com a inclusão de items, e mudança de logo. Os dados são salvos da última fatura são salvos no `localstorage` do browser
+Fatura editável permite a edição dos principais dados de uma fatura, inclusive com a inclusão de items, e mudança de logo. Os dados da última fatura são salvos no `localstorage` do browser.
 
 ## Tecnologias
 
-Este projeto foi criado com:
+Este projeto foi desenvolvido com:
 
 - VueJs 2
 - HTML e CSS
