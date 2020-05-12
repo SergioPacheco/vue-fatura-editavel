@@ -78,11 +78,11 @@
                     <textarea v-model="item.descricao"></textarea>
                     </textarea></td>
                 <td>
-                    <textarea class="cost" v-model="item.preco_unitario"></textarea></td>
+                    <textarea v-model="item.preco_unitario"></textarea></td>
                 <td>
-                    <textarea class="qty" v-model="item.quantidade"></textarea></td>
+                    <textarea v-model="item.quantidade"></textarea></td>
                 <td>
-                    <span class="price">R$ {{ item.preco_unitario * item.quantidade | currency }}</span>
+                    <span>R$ {{ item.preco_unitario * item.quantidade | currency }}</span>
                 </td>
             </tr>
 
