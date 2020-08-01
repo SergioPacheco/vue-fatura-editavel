@@ -1,6 +1,6 @@
 # Fatura Editável
 
-* demo[https://sergiopacheco.github.io/vue-fatura-editavel/]
+* (demo)[https://sergiopacheco.github.io/vue-fatura-editavel/]
 
 Fatura editável permite a edição dos principais dados de uma fatura, inclusive com a inclusão de items, e mudança de logo. Os dados da última fatura são salvos no `localstorage` do browser.
 
